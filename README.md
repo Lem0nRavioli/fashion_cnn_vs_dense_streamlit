@@ -1,17 +1,15 @@
-# Préparation avec environnement virtuel si pas deja fait en place dans vscode 
-python -m venv venv
-venv\Scripts\activate
+# install requirements
 pip install -r requirements.txt
 
-# Entraînement des modèles
+# train models
 python models/train_dense.py
 python models/train_cnn.py
 
-# Lancement de TensorBoard
+# load tensorboard
 tensorboard --logdir=logs --port=6006
 
-# Lancement de MLflow
+# load mlflow
 mlflow ui
 
-# Lancement de l'application Streamlit
+# serve the cnn model (change the loaded model if you wanna try the dense one)
 streamlit run streamlit_app/app.py
