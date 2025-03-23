@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hiron/Downloads/fashion-mnist-project1/fashion-mnist-project1/mlruns/812659242263053303/a44aab8f9dfa446cae1dec5f7af5756c/artifacts
+end_time: 1742760671903
+entry_point_name: ''
+experiment_id: '812659242263053303'
+lifecycle_stage: active
+run_id: a44aab8f9dfa446cae1dec5f7af5756c
+run_name: CNN_Model
+run_uuid: a44aab8f9dfa446cae1dec5f7af5756c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742760420889
+status: 3
+tags: []
+user_id: hiron

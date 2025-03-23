@@ -1,0 +1,10 @@
+digest: c3eb8cba
+name: dataset
+profile: '{"features_shape": [60000, 28, 28, 1], "features_size": 47040000, "features_nbytes":
+  376320000, "targets_shape": [60000], "targets_size": 60000, "targets_nbytes": 60000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 28, 28, 1]}}]", "targets": "[{\"type\":
+  \"tensor\", \"tensor-spec\": {\"dtype\": \"uint8\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "hiron", "mlflow.source.name": "models/train_dense.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
